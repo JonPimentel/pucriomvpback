@@ -8,7 +8,7 @@ Este projeto implementa uma API RESTful em Python utilizando Flask, com suporte 
 - Buscar todos os usuários
 - Buscar usuário por ID
 - Deletar usuário
-- Documentação Swagger acessível via `/apidocs`
+- Documentação Swagger acessível via /apidocs
 
 ## 🧰 Tecnologias
 
@@ -16,4 +16,23 @@ Este projeto implementa uma API RESTful em Python utilizando Flask, com suporte 
 - Flask
 - SQLite
 - SQLAlchemy
-- Flasg
+- Flasgger (Swagger UI)
+- Flask-CORS
+
+---
+
+## 🛠️ Instruções de Instalação
+
+### 1. Clone o repositório
+
+```bash
+git clone https://github.com/seu-usuario/api-flask-usuarios.git
+cd api-flask-usuarios
+
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+
+pip install -r requirements.txt
+
+python app.py
